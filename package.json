@@ -7,19 +7,19 @@
     "test": "test"
   },
   "dependencies": {
-    "plex-api-credentials": "3.0.1",
-    "plex-api-headers": "1.1.0",
-    "request": "^2.87.0",
-    "uuid": "^3.0.0",
-    "xml2js": "0.4.16"
+    "plex-api-credentials": "4.0.1",
+    "plex-api-headers": "2.0.0",
+    "request": "^2.88.2",
+    "uuid": "^9.0.0",
+    "xml2js": "0.4.23"
   },
   "devDependencies": {
     "expect.js": "^0.3.1",
-    "mocha": "^8.2.0",
-    "nock": "11.3.5",
-    "prettier": "^2.1.2",
-    "proxyquire": "^1.7.3",
-    "sinon": "^1.17.2"
+    "mocha": "^10.2.0",
+    "nock": "13.3.0",
+    "prettier": "^2.8.3",
+    "proxyquire": "^2.1.3",
+    "sinon": "^15.0.1"
   },
   "scripts": {
     "format": "npm run format:exec -- --write",
@@ -32,14 +32,14 @@
   "files": [
     "lib"
   ],
-  "repository": "git://github.com/phillipj/node-plex-api",
+  "repository": "git://github.com/oldmagic/node-plex-api",
   "keywords": [
     "plex",
     "api"
   ],
   "engines": {
-    "node": ">=8.0"
+    "node": ">=16.0"
   },
-  "author": "Phillip Johnsen <phillip@lightweight.no>",
+  "author": "oldmagic <oldmagic@zenet.org>",
   "license": "MIT"
 }
